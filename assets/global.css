@@ -1,0 +1,47 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.green {
+    background-color: #02A556;
+}
+.blue {
+    background-color: #0069BF;
+}
+.red {
+    background-color: #E71224;
+}
+.t-green {
+    color: #02A556;
+}
+.t-blue {
+    color: #0069BF;
+}
+.t-red {
+    color: #E71224;
+}
+/* navigation */
+.navmain {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100px 50px 1fr;
+    max-width: 1000px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    width: 100%;
+}
+.navline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navblock {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    height: 3rem;
+}
